@@ -14,7 +14,7 @@ public class Main {
             if (Calculate.checkYear(year, days)) {
                 points++;
             } else {
-                System.out.println("Неправильно! В этом году 365 дней!");
+                System.out.println("Неправильно! В этом году " + Calculate.daysInYearGet() + " дней!");
                 System.out.println("Набрано очков: " + points);
                 break;
             }
